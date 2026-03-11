@@ -1,6 +1,6 @@
 import circleshape
 import pygame
-from constants import SCREEN_HEIGHT, SCREEN_WIDTH, LINE_WIDTH, ASTEROID_MIN_SPEED, ASTEROID_MAX_SPEED
+from constants import SCREEN_HEIGHT, SCREEN_WIDTH, LINE_WIDTH
 import random
 import math
 
