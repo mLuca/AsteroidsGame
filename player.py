@@ -29,7 +29,6 @@ class Player(circleshape.CircleShape):
         if self.shoot_cooldown <= 0:
             self.shoot_cooldown = PLAYER_SHOOT_COOLDOWN_SECONDS
             shot_position = self.position + (self.forward * self.radius)
-            print(shot_position)
             new_shot = Shot(shot_position.x, shot_position.y)
             new_shot.velocity = self.forward * PLAYER_SHOOT_SPEED
 
